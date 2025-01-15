@@ -1,0 +1,74 @@
+15 Jan 2025 11:22:47.802 INFO  - 
+Welcome to arara 7.1.2!
+-----------------------------------------------------------------
+15 Jan 2025 11:22:47.806 DEBUG - 
+::: arara @ /usr/local/texlive/2023/texmf-dist/scripts/arara
+::: Java 23, Arch Linux
+::: /usr/lib/jvm/java-23-openjdk
+::: Linux, amd64, 6.12.8-arch1-1
+::: user.home @ /home/erick
+::: CF @ [none]
+-----------------------------------------------------------------
+15 Jan 2025 11:22:47.812 INFO  - Processing "iaact1.tex" (size: 2.2 kB, last modified: 2025-01-15 17:22:45), please wait.
+15 Jan 2025 11:22:47.821 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
+15 Jan 2025 11:22:48.023 INFO  - All directives were validated. We are good to go.
+-------------------------- DIRECTIVES ---------------------------
+Directive(identifier='pdflatex', parameters={shell=yes, reference=/home/erick/noLimits/tex/iaact1.tex},conditional={ NONE }, lineNumbers=[1])
+-----------------------------------------------------------------
+15 Jan 2025 11:22:48.025 INFO  - I am ready to interpret rule "pdflatex".
+15 Jan 2025 11:22:48.026 INFO  - Rule location: "/usr/local/texlive/2023/texmf-dist/scripts/arara/rules"
+15 Jan 2025 11:22:48.140 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
+15 Jan 2025 11:22:48.141 INFO  - System command: [pdflatex, --shell-escape, iaact1.tex] @ /home/erick/noLimits/tex
+15 Jan 2025 11:22:48.585 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./iaact1.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./iaact1.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] (./iaact1.aux) )
+</usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on iaact1.pdf (2 pages, 22362 bytes).
+Transcript written on iaact1.log.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+15 Jan 2025 11:22:48.587 INFO  - Task result: SUCCESS
+15 Jan 2025 11:22:48.589 INFO  - Total: 0.968 seconds
