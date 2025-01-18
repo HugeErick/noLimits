@@ -1,7 +1,7 @@
-18 Jan 2025 15:01:31.467 INFO  - 
+18 Jan 2025 15:12:14.431 INFO  - 
 Welcome to arara 7.0.4!
 -----------------------------------------------------------------
-18 Jan 2025 15:01:31.469 DEBUG - 
+18 Jan 2025 15:12:14.434 DEBUG - 
 ::: arara @ /usr/share/texlive/texmf-dist/scripts/arara
 ::: Java 17.0.13, Debian
 ::: /usr/lib/jvm/java-17-openjdk-amd64
@@ -9,17 +9,17 @@ Welcome to arara 7.0.4!
 ::: user.home @ /home/tough
 ::: CF @ [none]
 -----------------------------------------------------------------
-18 Jan 2025 15:01:31.473 INFO  - Processing "iaact1.tex" (size: 3.6 kB, last modified: 2025-01-18 21:01:27), please wait.
-18 Jan 2025 15:01:31.480 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
-18 Jan 2025 15:01:31.581 INFO  - All directives were validated. We are good to go.
+18 Jan 2025 15:12:14.439 INFO  - Processing "iaact1.tex" (size: 3.8 kB, last modified: 2025-01-18 21:12:12), please wait.
+18 Jan 2025 15:12:14.446 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
+18 Jan 2025 15:12:14.548 INFO  - All directives were validated. We are good to go.
 -------------------------- DIRECTIVES ---------------------------
 Directive(identifier='pdflatex', parameters={shell=yes, reference=/home/tough/noLimits/tex/iaact1.tex},conditional={ NONE }, lineNumbers=[1])
 -----------------------------------------------------------------
-18 Jan 2025 15:01:31.582 INFO  - I am ready to interpret rule "pdflatex".
-18 Jan 2025 15:01:31.584 INFO  - Rule location: "/usr/share/texlive/texmf-dist/scripts/arara/rules"
-18 Jan 2025 15:01:31.643 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
-18 Jan 2025 15:01:31.643 INFO  - System command: [pdflatex, --shell-escape, iaact1.tex] @ /home/tough/noLimits/tex
-18 Jan 2025 15:01:31.893 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+18 Jan 2025 15:12:14.549 INFO  - I am ready to interpret rule "pdflatex".
+18 Jan 2025 15:12:14.551 INFO  - Rule location: "/usr/share/texlive/texmf-dist/scripts/arara/rules"
+18 Jan 2025 15:12:14.613 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
+18 Jan 2025 15:12:14.614 INFO  - System command: [pdflatex, --shell-escape, iaact1.tex] @ /home/tough/noLimits/tex
+18 Jan 2025 15:12:14.920 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -46,13 +46,39 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./iaact1.aux)
@@ -60,25 +86,26 @@ For additional information on amsmath, use the `?' option.
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./iaact1.out) (./iaact1.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 56--63
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
 
-[2] (./iaact1.aux) )
+[2] [3] (./iaact1.aux) )
 (see the transcript file for additional information){/usr/share/texlive/texmf-d
 ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/
 helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on iaact1.pdf (2 pages, 23555 bytes).
+Output written on iaact1.pdf (3 pages, 25126 bytes).
 Transcript written on iaact1.log.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-18 Jan 2025 15:01:31.894 INFO  - Task result: SUCCESS
-18 Jan 2025 15:01:31.895 INFO  - Total: 0.527 seconds
+18 Jan 2025 15:12:14.921 INFO  - Task result: SUCCESS
+18 Jan 2025 15:12:14.922 INFO  - Total: 0.596 seconds
