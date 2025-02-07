@@ -1,0 +1,67 @@
+01 Feb 2025 15:32:27.133 INFO  - 
+Welcome to arara 7.1.2!
+-----------------------------------------------------------------
+01 Feb 2025 15:32:27.137 DEBUG - 
+::: arara @ /usr/local/texlive/2023/texmf-dist/scripts/arara
+::: Java 1.8.0_442, Arch Linux
+::: /usr/lib/jvm/java-8-openjdk/jre
+::: Linux, amd64, 6.12.10-arch1-1
+::: user.home @ /home/erick
+::: CF @ [none]
+-----------------------------------------------------------------
+01 Feb 2025 15:32:27.146 INFO  - Processing "t2.tex" (size: 4.0 kB, last modified: 2025-02-01 21:32:14), please wait.
+01 Feb 2025 15:32:27.157 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
+01 Feb 2025 15:32:27.436 INFO  - All directives were validated. We are good to go.
+-------------------------- DIRECTIVES ---------------------------
+Directive(identifier='pdflatex', parameters={shell=yes, reference=/home/erick/noLimits/tex/os/t2.tex},conditional={ NONE }, lineNumbers=[1])
+-----------------------------------------------------------------
+01 Feb 2025 15:32:27.439 INFO  - I am ready to interpret rule "pdflatex".
+01 Feb 2025 15:32:27.441 INFO  - Rule location: "/usr/local/texlive/2023/texmf-dist/scripts/arara/rules"
+01 Feb 2025 15:32:27.590 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
+01 Feb 2025 15:32:27.590 INFO  - System command: [pdflatex, --shell-escape, t2.tex] @ /home/erick/noLimits/tex/os
+01 Feb 2025 15:32:28.559 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./t2.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./t2.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./iso
+.png (PNG copy)>] [2 <./vbx.png> <./ram.png>] [3 <./core.png> <./wm.png>]
+Overfull \hbox (197.9528pt too wide) in paragraph at lines 84--96
+ [][] 
+[4 <./su.png> <./chr.png>] [5] (./t2.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on t2.pdf (5 pages, 662693 bytes).
+Transcript written on t2.log.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+01 Feb 2025 15:32:28.562 INFO  - Task result: SUCCESS
+01 Feb 2025 15:32:28.564 INFO  - Total: 1.573 seconds
