@@ -1,7 +1,7 @@
-07 Feb 2025 15:24:08.026 INFO  - 
+07 Feb 2025 18:11:48.913 INFO  - 
 Welcome to arara 7.1.2!
 -----------------------------------------------------------------
-07 Feb 2025 15:24:08.030 DEBUG - 
+07 Feb 2025 18:11:48.919 DEBUG - 
 ::: arara @ /usr/local/texlive/2023/texmf-dist/scripts/arara
 ::: Java 1.8.0_442, Arch Linux
 ::: /usr/lib/jvm/java-8-openjdk/jre
@@ -9,17 +9,17 @@ Welcome to arara 7.1.2!
 ::: user.home @ /home/erick
 ::: CF @ [none]
 -----------------------------------------------------------------
-07 Feb 2025 15:24:08.040 INFO  - Processing "t2.tex" (size: 6.1 kB, last modified: 2025-02-07 21:23:56), please wait.
-07 Feb 2025 15:24:08.053 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
-07 Feb 2025 15:24:08.348 INFO  - All directives were validated. We are good to go.
+07 Feb 2025 18:11:48.928 INFO  - Processing "t2.tex" (size: 11.5 kB, last modified: 2025-02-08 00:10:00), please wait.
+07 Feb 2025 18:11:48.948 INFO  - I found a potential pattern in line 1: pdflatex: { shell: yes }
+07 Feb 2025 18:11:49.292 INFO  - All directives were validated. We are good to go.
 -------------------------- DIRECTIVES ---------------------------
 Directive(identifier='pdflatex', parameters={shell=yes, reference=/home/erick/noLimits/tex/zechi/t2.tex},conditional={ NONE }, lineNumbers=[1])
 -----------------------------------------------------------------
-07 Feb 2025 15:24:08.351 INFO  - I am ready to interpret rule "pdflatex".
-07 Feb 2025 15:24:08.353 INFO  - Rule location: "/usr/local/texlive/2023/texmf-dist/scripts/arara/rules"
-07 Feb 2025 15:24:08.494 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
-07 Feb 2025 15:24:08.494 INFO  - System command: [pdflatex, --shell-escape, t2.tex] @ /home/erick/noLimits/tex/zechi
-07 Feb 2025 15:24:09.054 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+07 Feb 2025 18:11:49.296 INFO  - I am ready to interpret rule "pdflatex".
+07 Feb 2025 18:11:49.302 INFO  - Rule location: "/usr/local/texlive/2023/texmf-dist/scripts/arara/rules"
+07 Feb 2025 18:11:49.480 INFO  - I am ready to interpret task "PDFLaTeX engine" from rule "PDFLaTeX".
+07 Feb 2025 18:11:49.480 INFO  - System command: [pdflatex, --shell-escape, t2.tex] @ /home/erick/noLimits/tex/zechi
+07 Feb 2025 18:11:50.259 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -73,16 +73,131 @@ ty (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] (./t2.aux) )</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb>
-Output written on t2.pdf (3 pages, 98669 bytes).
+[2] [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.82 
+      <./imgs/ext.jpeg>] [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.103 
+       <./imgs/cconn.jpeg>] [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.117 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.117 
+       <./imgs/setConn.jpeg> <./imgs/setConn2.jpeg>] [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.131 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.131 
+       <./imgs/selConn.jpeg> <./imgs/c1.jpeg>] [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.145 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.145 
+       <./imgs/c2.jpeg> <./imgs/al.jpeg>] [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.159 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.159 
+       <./imgs/inse1.jpeg> <./imgs/inse2.jpeg>] [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.173 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.173 
+       <./imgs/inse3.jpeg> <./imgs/inse4.jpeg>] [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+       <./imgs/comp.jpeg>] [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.195 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.195 
+       <./imgs/sel1.jpeg> <./imgs/sel2.jpeg>] [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+       <./imgs/sel3.jpeg> <./imgs/sel4.jpeg>] [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.227 \section
+              {EXTRA}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.227 \section
+              {EXTRA} <./imgs/sel5.jpeg> <./imgs/sel6.jpeg>] [14] (./t2.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on t2.pdf (14 pages, 1477681 bytes).
 Transcript written on t2.log.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-07 Feb 2025 15:24:09.056 INFO  - Task result: SUCCESS
-07 Feb 2025 15:24:09.057 INFO  - Total: 1.187 seconds
+07 Feb 2025 18:11:50.262 INFO  - Task result: SUCCESS
+07 Feb 2025 18:11:50.263 INFO  - Total: 1.529 seconds

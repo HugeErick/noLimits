@@ -51,7 +51,177 @@ OQL, on the other hand, natively supports these object-oriented features. It all
 In summary, while SQL remains a powerful tool for relational data, its reliance on joins and lack of native support for object-oriented principles make it less suitable for modern, object-oriented applications. OQL addresses these limitations by providing a query language that is inherently designed for object-relational databases, enabling more efficient and intuitive data retrieval and manipulation.
 
 \section{Methodology}
+To implement and evaluate the object-relational database system, we used \textbf{Oracle Database Express Edition (XE)} as the primary database management system. The general solution involved the following steps:
+
+1. \textbf{Setting Up Oracle Database Express}:
+   - Oracle Database XE was downloaded and installed on a local machine. During installation, the default settings were used, and a system password was set for the administrative user (\texttt{SYS}).
+   - The database was configured to allow remote connections, and the necessary ports (e.g., 1521 for Oracle) were opened to enable access from external tools.
+
+2. \textbf{Configuring Visual Studio Code (VSCode)}:
+   - The \textbf{Oracle Developer Tools for VSCode} extension was installed to facilitate database connectivity and query execution.
+   - A connection profile was created in VSCode, specifying the host (e.g., \texttt{localhost}), port (e.g., \texttt{1521}), service name (e.g., \texttt{XE}), and credentials (e.g., \texttt{SYS} and the system password).
+
+	 \begin{figure}[H]
+		 \centering
+		 \includegraphics[width=1\textwidth]{imgs/ext.jpeg}
+		 \caption{VSCode extension}
+		 \label{fig:1}
+		\end{figure}
+
+3. \textbf{Writing and Executing OQL Scripts}:
+   - OQL scripts were written to define complex object types, create relational tables with nested collections, and establish relationships between objects. These scripts were saved as \texttt{.sql} files for execution.
+   - The scripts included:
+     - \textbf{Object Type Definitions}: Creating object types such as \texttt{employee\_t}, \texttt{worker\_t}, and \texttt{manager\_t} with attributes and methods.
+     - \textbf{Table Creation}: Defining tables with nested collections (e.g., \texttt{telephone\_t} as a nested table of phone numbers).
+     - \textbf{Data Insertion}: Inserting sample data into the tables to populate the database.
+     - \textbf{Query Execution}: Writing and executing queries to retrieve and validate data from the object-relational schema.
+
+4. \textbf{Challenges Faced}:
+   - One of the major challenges was the \textbf{lack of comprehensive online documentation} for OQL, especially in the context of Oracle Database. This made it difficult to troubleshoot issues and find examples of advanced OQL features.
+   - Additionally, configuring the Oracle extension in VSCode required trial and error, as some settings (e.g., connection parameters) were not well-documented.
+
+5. \textbf{Validation and Testing}:
+   - After executing the OQL scripts, the database schema and data were validated by running queries to ensure that object relationships, nested collections, and inheritance hierarchies were functioning as expected.
+   - The results were compared with the expected outcomes to verify the correctness and efficiency of the implemented schema.
+
 \section{Result Analysis}
+The following figures will show us the whole work done for our solution and how the oql compiled successfully:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/cconn.jpeg}
+	\caption{Create connection}
+	\label{fig:2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/setConn.jpeg}
+	\caption{Setting connection}
+	\label{fig:3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/setConn2.jpeg}
+	\caption{Setting connection}
+	\label{fig:4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/selConn.jpeg}
+	\caption{Connection selection}
+	\label{fig:5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/c1.jpeg}
+	\caption{Create query}
+	\label{fig:6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/c2.jpeg}
+	\caption{Create query}
+	\label{fig:7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/al.jpeg}
+	\caption{Alter query}
+	\label{fig:8}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/inse1.jpeg}
+	\caption{Insert query}
+	\label{fig:9}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/inse2.jpeg}
+	\caption{Insert query}
+	\label{fig:10}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/inse3.jpeg}
+	\caption{Insert query}
+	\label{fig:11}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/inse4.jpeg}
+	\caption{Insert query}
+	\label{fig:12}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/comp.jpeg}
+	\caption{compilation successfully}
+	\label{fig:13}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel1.jpeg}
+	\caption{Select query}
+	\label{fig:14}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel2.jpeg}
+	\caption{Select query}
+	\label{fig:15}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel3.jpeg}
+	\caption{Select query}
+	\label{fig:16}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel4.jpeg}
+	\caption{Select query}
+	\label{fig:17}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel5.jpeg}
+	\caption{Select query}
+	\label{fig:18}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{imgs/sel6.jpeg}
+	\caption{Select query}
+	\label{fig:19}
+\end{figure}
+
+
+
+
+
+
+
+
+
 \section{Conclusions}
 This work demonstrated the effectiveness of Object Query Language (OQL) in managing object-relational databases. \textbf{However we as a team struggled a ton to get this tools working due to the lack of documentation that is online.} By defining complex object types, nested collections, and relationships, we showed that OQL simplifies querying object-oriented data compared to SQL, which relies on complex joins. OQL's native support for object-oriented principles, such as inheritance and polymorphism, makes it a superior choice for modern applications. This highlights OQL's potential for advancing database technologies in object-oriented contexts.
 \section{EXTRA}
