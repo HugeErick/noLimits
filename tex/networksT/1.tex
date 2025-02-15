@@ -1,0 +1,103 @@
+% arara: pdflatex: { shell: yes }
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx} % For better table handling
+\bibliographystyle{apacite}
+
+% Suppress underfull and overfull warnings
+\hbadness=10000
+\hfuzz=10000pt
+
+\begin{document}
+
+\title{Homework Assignment: TCP/IP, OSI, and Encapsulation}
+\author{Erick Gonzalez Parada 178145}
+\date{\today}
+
+\maketitle
+
+\section*{Part 1: TCP/IP vs. OSI Model Comparison (4 points)}
+
+\subsection*{1. Fill in the following table comparing the OSI model and the TCP/IP model:}
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{|l|l|X|}
+\hline
+\textbf{Layer (OSI Model)} & \textbf{Equivalent Layer (TCP/IP Model)} & \textbf{Main Function} \\
+\hline
+Application & Application & Handles user applications (e.g., web browsing) \\
+\hline
+Presentation & Application & Formats and encrypts data \\
+\hline
+Session & Application & Manages communication sessions \\
+\hline
+Transport & Transport & Ensures reliable data transfer \\
+\hline
+Network & Internet & Routes packets across networks \\
+\hline
+Data Link & Network Access & Handles MAC addressing and framing \\
+\hline
+Physical & Network Access & Defines hardware transmission \\
+\hline
+\end{tabularx}
+\end{table}
+
+\section*{Part 2: Encapsulation Process (3 points)}
+
+\subsection*{3. Arrange the following terms in order of encapsulation (from application to physical layer):}
+
+The correct order of encapsulation is:
+\begin{itemize}
+    \item \textbf{Data} → \textbf{TCP Segment} → \textbf{IP Packet} → \textbf{Frame} → \textbf{Bits}
+\end{itemize}
+
+\subsubsection*{Explanation of Each Step:}
+\begin{itemize}
+    \item \textbf{Data}: The original message or payload created at the Application layer.
+    \item \textbf{TCP Segment}: At the Transport layer, the data is encapsulated into a TCP segment, which includes a header with information such as source and destination ports, sequence numbers, and checksums for reliable communication.
+    \item \textbf{IP Packet}: At the Network layer, the TCP segment is encapsulated into an IP packet, which adds a header containing source and destination IP addresses for routing across networks.
+    \item \textbf{Frame}: At the Data Link layer, the IP packet is encapsulated into a frame, which includes a header with MAC addresses for local network delivery and a trailer for error checking.
+    \item \textbf{Bits}: At the Physical layer, the frame is converted into bits (binary 1s and 0s) for transmission over the physical medium (e.g., Ethernet cables or wireless signals).
+\end{itemize}
+
+\subsection*{4. When sending a message over the Internet, at which layer does IP addressing occur?}
+
+\begin{itemize}
+    \item \textbf{C) Network}
+\end{itemize}
+
+\subsection*{5. In de-encapsulation, which layer removes MAC addresses before sending data to the Network layer?}
+
+\begin{itemize}
+    \item \textbf{B) Data Link}
+\end{itemize}
+
+\section*{Part 3: Practical Scenario (3 points)}
+
+\subsection*{6. Read the scenario below and answer the questions.}
+
+\subsubsection*{Scenario:}
+Alice is using a web browser to visit \texttt{www.example.com}. Her computer is connected to a \textbf{router} via Ethernet, and the website is hosted on a remote server.
+
+\subsubsection*{Questions:}
+
+\begin{itemize}
+    \item \textbf{At which OSI layer does the HTTP request occur?}
+    
+    \textbf{Answer:} The HTTP request occurs at the \textbf{Application layer}. This is where web browsers and web servers interact using the HTTP protocol to request and deliver web pages.
+    
+    \item \textbf{Which protocol at the Transport layer will likely be used for this connection?}
+    
+    \textbf{Answer:} The protocol used at the Transport layer will likely be \textbf{TCP}. TCP is commonly used for web traffic because it provides reliable, ordered, and error-checked delivery of data between applications.
+    
+    \item \textbf{What happens to Alice's data at the Data Link layer before it is sent through Ethernet?}
+    
+    \textbf{Answer:} At the Data Link layer, Alice's data is encapsulated into \textbf{frames}. The Data Link layer adds a header containing the source and destination MAC addresses, which are used for frame forwarding within the Local Area Network (LAN). The frame also includes a trailer for error detection (e.g., a CRC checksum). Once the frame is ready, it is sent through the Ethernet interface for transmission over the physical network.
+\end{itemize}
+
+\end{document}
