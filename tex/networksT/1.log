@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  14 FEB 2025 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  16 FEB 2025 16:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -228,25 +228,25 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 (./1.aux)
 \openout1 = `1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-Package hyperref Info: Link coloring OFF on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+Package hyperref Info: Link coloring OFF on input line 14.
  (./1.out) (./1.out)
 \@outlinefile=\write3
 \openout3 = `1.out'.
@@ -275,21 +275,49 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 21.
 
-Overfull \hbox (2.09862pt too wide) in paragraph at lines 47--47
+Overfull \hbox (2.09862pt too wide) in paragraph at lines 46--46
 []|\OT1/cmr/m/n/10 Manages
  []
 
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1
-.enc}] [4] (./1.aux)
+Overfull \vbox (56.761pt too high) has occurred while \output is active []
+
+
+[2]
+<tcpModel.png, id=41, 1021.8175pt x 780.9175pt>
+File: tcpModel.png Graphic file (type png)
+<use tcpModel.png>
+Package pdftex.def Info: tcpModel.png  used on input line 53.
+(pdftex.def)             Requested size: 345.0pt x 263.66148pt.
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73     \item \textbf
+                      {IP Packet}: At the Network layer, the TCP segment is ...
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} 
+<./tcpModel.png (PNG copy)>] [4]
+Overfull \hbox (34.80243pt too wide) in paragraph at lines 116--118
+[]$\OT1/cmtt/m/n/10 https : / / www . geeksforgeeks . org / open-[]systems-[]in
+terconnection-[]model-[]osi/$[] 
+ []
+
+
+Overfull \hbox (83.05202pt too wide) in paragraph at lines 124--126
+[]$\OT1/cmtt/m/n/10 https : / / www . freecodecamp . org / news / the-[]complet
+e-[]guide-[]to-[]the-[]ethernet-[]protocol/$[] 
+ []
+
+[5] (./1.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -298,24 +326,25 @@ Package rerunfilecheck Info: File `1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8579 strings out of 474267
- 133830 string characters out of 5747441
+ 8606 strings out of 474267
+ 134235 string characters out of 5747441
  1932555 words of memory out of 5000000
- 30687 multiletter control sequences out of 15000+600000
- 562827 words of font info for 52 fonts, out of 8000000 for 9000
+ 30706 multiletter control sequences out of 15000+600000
+ 563173 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,480b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,482b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on 1.pdf (4 pages, 105020 bytes).
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on 1.pdf (5 pages, 159353 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
