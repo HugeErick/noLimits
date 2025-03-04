@@ -1,0 +1,64 @@
+% arara: pdflatex: { shell: yes }
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Set link color to classic blue and underline
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    filecolor=black
+}
+
+% Formatting section titles
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Erick Gonzalez Parada}} \\
+    Puebla, Mexico $\cdot$ \underline{\href{https://linkedin.com/in/erick-gonzalez-810883335}{linkedin.com/in/erick-gonzalez-810883335}} \\
+    +52 2228498841 $\cdot$ \underline{\href{mailto:erick.parada101@gmail.com}{erick.parada101@gmail.com}}
+\end{center}
+
+\section*{Summary}
+I'm a software developer with expertise in full-stack development (both web and desktop). I love making my software available on all operating system platforms and have an interest in cybersecurity. Passionate about Linux, competitive programming, and chess. Currently a student at UDLAP (Universidad de las Américas Puebla), set to graduate in 2026.
+
+\section*{Projects}
+\subsection*{Courses Academy Video Platform (Full-Stack)}
+\begin{itemize}
+    \item Developed a platform where users can view courses created by administrators. Admins can add videos and manage other admins.
+    \item Implemented CI/CD practices using Git and GitHub to improve efficiency, reducing bugs and delivery times.
+    \item Designed user authentication flows on the frontend using JWT (e.g., login, signup, token storage, and renewal).
+    \item Fully developed backend in JavaScript to avoid third-party services, allowing self-hosting and improved testability.
+\end{itemize}
+
+\subsection*{Fully Distributed GUI Application “idealCalculator” (Raylib)}
+\begin{itemize}
+    \item Developed \textit{idealCalculator}, a cross-platform numerical integration tool using C and Raylib.
+    \item Implemented the Composite Trapezoidal and Midpoint Rules with seamless compatibility across Windows, macOS, and Linux.
+\end{itemize}
+
+\section*{Education}
+\textbf{Universidad de las Américas Puebla (UDLAP)}\\
+\textit{Computer Systems Engineering}\\
+Recognition: Interim Board of Computer Systems Engineering; Event Coordinator\\
+Cholula, Mexico | Graduate May 2026
+
+\section*{Additional Skills}
+\begin{itemize}
+    \item \textbf{Languages:} Spanish (native), English (100\%), German (70\%)
+    \item \textbf{Programming:} C/C++, Rust, Golang, Java, JavaScript/TypeScript, HTML/CSS, SQL, Bash \& Batch
+    \item \textbf{Technologies:} Linux, GitHub, CI/CD, Web Development
+    \item \textbf{Profiles:} \underline{\href{https://github.com/HugeErick}{GitHub}}, \underline{\href{https://portafolio-delta-wheat.vercel.app/}{Web Portfolio}}
+\end{itemize}
+
+\end{document}
+
