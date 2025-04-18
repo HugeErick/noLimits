@@ -43,7 +43,7 @@
 
 \begin{abstract}
   \raggedright
-  This document (ABET style) explores the architecture of blockchain networks.
+  This document explores blockchain network architecture, focusing on decentralization, security, and scalability. It examines key components like consensus mechanisms, data structures, and interoperability solutions, while addressing challenges such as energy consumption and governance. Emerging innovations, including Layer-2 scaling and sharding, are highlighted to improve efficiency and scalability.
 \end{abstract}
 
 \begin{justify}
@@ -51,8 +51,6 @@
 \end{justify}
 
 \section{Introduction}
-How does blockchain achieve a working internal and external architecture? How does blockchain achieve its goals such as decentralization and dynamism? What are the fundamental architectural components that enable blockchain networks to function securely without central authority? How do these networks maintain consistency and reliability across distributed nodes?
-
 Blockchain technology has emerged as one of the most transformative innovations of the 21st century, extending far beyond its initial application in cryptocurrencies. At its core, blockchain represents a novel approach to architecting data and coordinating network participants in a way that eliminates the need for trusted intermediaries \cite{reasearchgate}. This paradigm shift in network architecture has profound implications for various sectors, including finance, supply chain, healthcare, and governance.
 
 The unique architecture of blockchain networks enables them to achieve seemingly contradictory goals: they are simultaneously decentralized yet coordinated, transparent yet secure, and immutable yet adaptable. Understanding how these networks are architected is essential for comprehending their capabilities, limitations, and potential applications. This paper aims to dissect the architecture of blockchain networks, examining both their internal components and external interactions.
@@ -67,6 +65,13 @@ The architecture of blockchain networks has evolved significantly since the intr
 \subsection{Network Topology and Node Types}
 Blockchain networks typically follow a peer-to-peer (P2P) topology, where nodes connect directly without requiring central servers. However, the specific implementation varies across different blockchain systems. Bitcoin and Ethereum employ an unstructured P2P network where nodes connect randomly to each other, while other systems like Hyperledger Fabric use a more structured approach with defined roles for different node types \cite{patnaik}.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{imgs/p2p.jpeg}
+  \caption{peer to peer network topology}
+  \label{fig:1}
+\end{figure}
+
 Nodes in blockchain networks can serve various functions:
 \begin{itemize}
   \item \textbf{Full nodes} maintain a complete copy of the blockchain and validate transactions and blocks.
@@ -77,6 +82,14 @@ Nodes in blockchain networks can serve various functions:
 
 \subsection{Consensus Mechanisms}
 Consensus mechanisms are critical components that enable distributed agreement on the state of the blockchain. Several approaches have emerged:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{imgs/conseuns.jpeg}
+  \caption{Consensus mechanisms}
+  \label{fig:2}
+\end{figure}
+
 \begin{itemize}
   \item \textbf{Proof of Work (PoW)}: Used by Bitcoin and (currently) Ethereum, requires nodes to solve computationally intensive puzzles.
   \item \textbf{Proof of Stake (PoS)}: Validators are selected based on the amount of cryptocurrency they hold and are willing to "stake" as collateral.
