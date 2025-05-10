@@ -105,6 +105,15 @@ The database schema was designed using an Entity-Relationship Model and then imp
   \label{fig:3}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{imgs/uml2.png}
+  \caption{Final UML Diagram}
+  \label{fig:uml}
+\end{figure}
+
+
+
 
 \subsection{Database implementation and analysis}
 
@@ -324,7 +333,11 @@ WHERE name IN (
 );
 \end{lstlisting}
 
-We calculated pairwise document similarity using Euclidean distance across term vectors.
+\paragraph{Domain Vocabulary in the Search Engine Database}
+The vocabulary stored in this search engine's database focuses primarily on geopolitical terminology related to the Russia-Ukraine conflict. The term corpus includes key political entities (``ucrania'', ``rusia'', ``estados\_unidos'', ``union\_europea''), international organizations (``asamblea\_general'', ``consejo\_seguridad'', ``onu''), and diplomatic concepts (``resolucion'', ``soberania'', ``integridad\_territorial''). Military terminology is prevalent, with terms like ``invasion'', ``hostilidades'', ``fuerzas\_militares'', and ``retirada\_tropas''. The database also captures humanitarian aspects through terms such as ``ayuda\_humanitaria'', ``victimas\_civiles'', ``ninos\_afectados'', and ``crisis\_humanitaria''. Diplomatic figures appear as entities (``mariana\_betsa'', ``dorothy\_shea'', ``vassily\_nebenzia'', ``barbara\_woodward''). The vocabulary is enriched with synonyms (e.g., ``kiev''/``kyiv'', ``onu''/``naciones\_unidas'') to enhance retrieval effectiveness. This domain-specific vocabulary enables the search engine to effectively index and retrieve documents related to the Russia-Ukraine conflict, international diplomacy, and associated humanitarian concerns, demonstrating how specialized terminology can be structured within a search context.
+
+\subsubsection{Distances calculations}
+We also calculated pairwise document similarity using Euclidean distance across term vectors thanks to relational algebra.
 
 \begin{figure}[H]
   \centering
