@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  5 APR 2025 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  18 MAY 2025 14:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -357,7 +357,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  9895 strings out of 474267
  153471 string characters out of 5747441
- 1935555 words of memory out of 5000000
+ 1937555 words of memory out of 5000000
  32013 multiletter control sequences out of 15000+600000
  560269 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -368,7 +368,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (1 page, 85189 bytes).
+Output written on cv.pdf (1 page, 86119 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
