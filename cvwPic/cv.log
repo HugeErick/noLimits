@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  21 MAY 2025 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  22 MAY 2025 12:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -337,10 +337,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<decentppic.jpeg, id=4, 1606.0pt x 1606.0pt>
-File: decentppic.jpeg Graphic file (type jpg)
-<use decentppic.jpeg>
-Package pdftex.def Info: decentppic.jpeg  used on input line 29.
+<profpic.jpeg, id=4, 1606.0pt x 1606.0pt>
+File: profpic.jpeg Graphic file (type jpg)
+<use profpic.jpeg>
+Package pdftex.def Info: profpic.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 31.
@@ -350,8 +350,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./decent
-ppic.jpeg>] (./cv.aux)
+al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./profpi
+c.jpeg>] (./cv.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -361,7 +361,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  9902 strings out of 474267
- 153624 string characters out of 5747441
+ 153603 string characters out of 5747441
  1936555 words of memory out of 5000000
  32020 multiletter control sequences out of 15000+600000
  560269 words of font info for 43 fonts, out of 8000000 for 9000
@@ -373,7 +373,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (1 page, 195895 bytes).
+Output written on cv.pdf (1 page, 190265 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
